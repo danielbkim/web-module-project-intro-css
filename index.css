@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+    v2.0 | 20110126
+    License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -60,11 +60,43 @@ table {
     background-color: yellow;
 }
 
+.nav {
+    border: 1px solid red;
+}
+header {
+    border: 1px solid red;
+}
+
 h1 {
+    display: inline;
     font-family: "Chelsea Market";
     font-size: 60px;
 }
 
+section {
+    border: 1px solid red;
+}
+
+p {
+    border: 1px solid red;
+}
+
+footer {
+    background-color: #F9E7DC;
+    border: 1px solid red;
+}
+
 .nav li {
+    border: 1px solid red;
     display: inline;
+}
+
+.yosemite-profile-image {
+    border-radius: 150px;
+    width: 250px;
+}
+
+.main-text-container {
+    color: white;
+    background-color: #DDB9A3;
 }
