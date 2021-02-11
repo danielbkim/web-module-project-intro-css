@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    font-family: "Roboto Mono";
 }
 ol, ul {
 	list-style: none;
@@ -45,4 +46,25 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+.red {
+    background-color: #FF764E;
+}
+
+.blue {
+    background-color: #5ED3EB;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+h1 {
+    font-family: "Chelsea Market";
+    font-size: 60px;
+}
+
+.nav li {
+    display: inline;
 }
