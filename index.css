@@ -30,7 +30,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    font-family: "Roboto Mono";
 }
 ol, ul {
 	list-style: none;
@@ -48,6 +47,19 @@ table {
 	border-spacing: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Roboto Mono";
+    font-size: 1.6rem;
+}
+
 .red {
     background-color: #FF764E;
 }
@@ -57,11 +69,14 @@ table {
 }
 
 .yellow {
-    background-color: yellow;
+    background-color: #FFCD69;
 }
 
 .nav {
+    /* margin: 10px; */
+    margin: 0 auto;
     border: 1px solid red;
+    text-align: center;
 }
 header {
     border: 1px solid red;
@@ -91,13 +106,18 @@ footer {
 }
 
 .nav li {
-    border: 1px solid red;
+    color: white;
     display: inline;
+    width: 50px;
+    border: 1px solid red;
+    border-radius: 7px;
+    padding: 10px;
+
 }
 
-/* .flat-image {
-    
-} */
+.flat-image {
+    width: 100px;    
+}
 .bold {
     font-weight: 700;
 }
