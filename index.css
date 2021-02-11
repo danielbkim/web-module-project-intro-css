@@ -81,6 +81,10 @@ p {
     border: 1px solid red;
 }
 
+img {
+    border: 1px solid red;
+}
+
 footer {
     background-color: #F9E7DC;
     border: 1px solid red;
@@ -89,6 +93,13 @@ footer {
 .nav li {
     border: 1px solid red;
     display: inline;
+}
+
+/* .flat-image {
+    
+} */
+.bold {
+    font-weight: 700;
 }
 
 .yosemite-profile-image {
