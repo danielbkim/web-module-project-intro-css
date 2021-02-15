@@ -51,10 +51,15 @@ table {
     box-sizing: border-box;
 }
 
+/* Is there a specific convention on how to organize
+CSS code that's visibly friendly? */
+
 html {
     font-size: 62.5%;
 }
 
+/* Why do we adjust this to use 62.5% to 10px and then
+go back to 1.6rem to readjust to 16px */
 body {
     font-family: "Roboto Mono";
     font-size: 1.6rem;
@@ -93,6 +98,7 @@ section {
 }
 
 p {
+    display: inline-block;
     border: 1px solid red;
 }
 
@@ -127,7 +133,13 @@ footer {
     width: 250px;
 }
 
+/* How do I get the elements of the h1 and p next to the rounded image up into
+the same level as the img? */
 .main-text-container {
     color: white;
     background-color: #DDB9A3;
+}
+
+.center {
+    text-align: center;
 }
